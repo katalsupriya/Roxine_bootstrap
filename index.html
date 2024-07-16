@@ -1,0 +1,984 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- animation.min.css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Roxine Project</title>
+</head>
+
+<body>
+    <!-- header of the page -->
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid px-lg-5 px-0">
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand m-sm-auto me-0" href="#"><img class="dark-img d-lg-none d-inline-flex"
+                        src="./images/logo-dark.svg" alt="logoimage"><img class="light-img d-lg-block d-none"
+                        src="./images/logo.svg" alt="logoimage">
+                    <div class="d-lg-none d-inline-flex pe-2">
+                        <a href="#"><i class="fas fa-search pe-3 my-2 text-primary"></i></a>
+                        <a href="#"><i class="fas fa-sort-amount-down px-lg-3 my-2 text-primary"></i></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto text-small">
+                            <li class="nav-item dropdown">
+                                <!-- home nav-link -->
+                                <a class="nav-link active fw-lighter px-lg-3 px-2 text-white text-uppercase"
+                                    href="index.html" id="navbarDropdownMenuLink" role="button">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu creative-agency ps-lg-3 bg-light px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn"
+                                    aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="py-2"><a href="index.html" class="text-decoration-none text-uppercase">
+                                            Creative Agency</a></li>
+                                    <li class="py-2"><a href="design-studio.html"
+                                            class="text-decoration-none text-uppercase">Design Studio</a></li>
+                                    <li class="py-2"><a href="digital-agency.html"
+                                            class="text-decoration-none text-uppercase">Digital Agency</a></li>
+                                    <li class="py-2"><a href="construction.html"
+                                            class="text-decoration-none text-uppercase">Construction</a></li>
+                                    <li><a href="corporate.html" class="text-decoration-none text-uppercase">Corporate
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- feature nav-link -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="#"
+                                    role="button">
+                                    feature
+                                </a>
+                                <ul class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn"
+                                    aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="py-2"><a href="index.html"
+                                            class="text-decoration-none text-uppercase">Header Style</a>
+                                    </li>
+                                    <li class="py-2"><a href="design-studio.html"
+                                            class="text-decoration-none text-uppercase">Mega
+                                            Menu
+                                        </a></li>
+                                    <li class="py-2"><a href="digital-agency.html"
+                                            class="text-decoration-none text-uppercase">Footer
+                                            Menu
+                                        </a></li>
+                                    <li class="py-2"><a href="construction.html"
+                                            class="text-decoration-none text-uppercase">Rev Slide
+                                        </a></li>
+                                    <li class="py-2"><a href="corporate.html"
+                                            class="text-decoration-none text-uppercase">Side Panel
+                                        </a>
+                                    </li>
+                                    <li class="py-2"><a href="corporate.html"
+                                            class="text-decoration-none text-uppercase">Page Banner
+                                        </a>
+                                    </li>
+                                    <li class="py-2"><a href="corporate.html"
+                                            class="text-decoration-none text-uppercase">User Protofile
+                                        </a></li>
+                                    <li><a href="corporate.html" class="text-decoration-none text-uppercase">Site
+                                            search</a></li>
+                                </ul>
+                            </li>
+                            <!--Protofiles nav-link  -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="#"
+                                    role="button">
+                                    Protofiles
+                                </a>
+                                <ul class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn"
+                                    aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="py-2"><a href="index.html" class="text-decoration-none text-uppercase">No
+                                            Slider</a>
+                                    </li>
+                                    <li class="py-2"><a href="design-studio.html"
+                                            class="text-decoration-none text-uppercase">Left
+                                            Slider</a></li>
+                                    <li class="py-2"><a href="digital-agency.html"
+                                            class="text-decoration-none text-uppercase">Right slider
+                                        </a></li>
+                                    <li class="py-2"><a href="construction.html"
+                                            class="text-decoration-none text-uppercase">Masonary
+                                        </a>
+                                    </li>
+                                    <li class="py-2"><a href="corporate.html"
+                                            class="text-decoration-none text-uppercase">Full width</a>
+                </a></li>
+                <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Full Speed</a>
+                </li>
+                <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Boxed</a></li>
+                <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Single V1</a>
+                </li>
+                <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Single V2</a>
+                </li>
+                <li><a href="corporate.html" class="text-decoration-none text-uppercase">Single V3</a></li>
+                </ul>
+                </li>
+                <!-- Element nav-link -->
+                <li class="nav-item dropdown position-static">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="#" role="button">
+                        Element
+                    </a>
+                    <div
+                        class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn element-dropdown">
+                        <div class="row">
+                            <div class="col-lg-3 col-12">
+                                <ul class="ps-lg-3 ps-0 bg-light py-lg-4 py-0 list-inline border-end bg-light">
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-accordions.html"><i class="fas fa-bars pe-2"></i>
+                                            Accordions</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-animations.html"><i class="fas fa-magic pe-2"></i>
+                                            Animation</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-buttons.html"><i class="fas fa-link pe-2"></i>Button
+                                        </a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-carousels.html"><i class="fas fa-heart pe-2"></i>
+                                            Carousel</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-tabs.html"><i class="fas fa-tasks pe-2"></i>Tabs</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-columns.html"><i class="fas fa-columns pe-2"></i>
+                                            Coluymns</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-counters.html"><i class="fas fa-clock pe-2"></i>
+                                            Counter</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-data-tables.html"><i class="fas fa-table pe-2"></i>
+                                            Data Tables</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-12">
+                                <ul class="ps-lg-3 ps-0 py-lg-4 bg-light py-0 list-inline border-end">
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-date-time-pickers.html"><i
+                                                class="fas fa-calendar-week pe-2"></i>Data & Time pickers</a>
+                                    </li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-dividers.html"><i class="fas fa-indent pe-2"></i>
+                                            Divider</a></li>
+                                    <li class="py-2"><a class="text-decoration-none" href="element-icon-boxes.html"><i
+                                                class="fas fa-lightbulb pe-2"></i>
+                                            Icon Boxes</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-galleries.html"><i class="fas fa-portrait pe-2"></i>
+                                            Gallery</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-header-styles.html"><i class="fas fa-pen-square pe-2"></i>
+                                            Header Style</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-icon-lists.html"><i class="fas fa-list pe-2"></i>Icon
+                                            Lists</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-labels.html"><i class="fas fa-plus-circle pe-2"></i>
+                                            Lables </a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-lightbox.html"><i
+                                                class="fas fa-expand-arrows-alt pe-2"></i>LightBoxes</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-12">
+                                <ul class="ps-lg-3 ps-0 py-lg-4 py-0 bg-light list-inline border-end">
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-google-maps.html"><i class="fas fa-map-pin pe-2"></i>
+                                            Maps</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-media-embed.html"><i class="fas fa-play pe-2"></i>
+                                            Meadia Embeds</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-modal-boxes.html"><i
+                                                class="fas fa-people-carry pe-2"></i>Model Boxes</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-paginations.html"><i class="fas fa-cogs pe-2"></i>
+                                            Paginations</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-progressbar.html"><i class="fas fa-spinner pe-2"></i>
+                                            Progress Bars</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-range-sliders.html"><i class="fas fa-arrows-alt pe-2"></i>
+                                            Range Slider</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-star-ratings.html"><i class="fas fa-arrows-alt pe-2"></i>Star
+                                            Rating</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-pricing-boxes.html"><i class="fas fa-dollar-sign pe-2"></i>
+                                            Price Boxes</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-12">
+                                <ul class="ps-lg-3 ps-0 py-lg-4 py-0 bg-light list-inline border-end">
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-blockquotes.html"><i
+                                                class="fas fa-quote-right pe-2"></i>Blockquotes </a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="font-icons.html"><i class="fas fa-laptop pe-2"></i>Font Icon</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-sections.html"><i class="fas fa-folder-open pe-2"></i>
+                                            Sections</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-social-icons.html"><i class="fab fa-facebook pe-2"></i>social
+                                            Icon</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-select-pickers.html"><i class="fas fa-hand-pointer pe-2"></i>
+                                            Select picker</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-select-boxes.html"><i class="fas fa-columns pe-2"></i>
+                                            Select Boxes</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase" href="team.html"><i
+                                                class="fas fa-hand-pointer pe-2"></i>Team Block</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase" href="about.html"><i
+                                                class="fas fa-columns pe-2"></i>About Block</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- About nav-link -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="about.html"
+                        role="button">
+                        About
+                    </a>
+                </li>
+                <!-- Team nav-link -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="#" role="button">
+                       Team
+                    </a>
+                    <ul class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn"
+                        aria-labelledby="navbarDropdownMenuLink">
+                        <li class="py-2"><a href="index.html" class="text-decoration-none text-uppercase">Header
+                                Style</a>
+                        </li>
+                        <li class="py-2"><a href="design-studio.html" class="text-decoration-none text-uppercase">Mega
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="digital-agency.html"
+                                class="text-decoration-none text-uppercase">Footer
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="construction.html" class="text-decoration-none text-uppercase">Rev
+                                Slide
+                            </a></li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Side Panel
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Page
+                                Banner
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">User
+                                Protofile
+                            </a></li>
+                        <li><a href="corporate.html" class="text-decoration-none text-uppercase">Site search</a></li>
+                    </ul>
+                </li>
+                <!-- Blog nav-link -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-white" href="#" role="button">
+                        Blog
+                    </a>
+                    <ul class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn"
+                        aria-labelledby="navbarDropdownMenuLink">
+                        <li class="py-2"><a href="index.html" class="text-decoration-none text-uppercase">Header
+                                Style</a>
+                        </li>
+                        <li class="py-2"><a href="design-studio.html" class="text-decoration-none text-uppercase">Mega
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="digital-agency.html"
+                                class="text-decoration-none text-uppercase">Footer
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="construction.html" class="text-decoration-none text-uppercase">Rev
+                                Slide
+                            </a></li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Side Panel
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Page
+                                Banner
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">User
+                                Protofile
+                            </a></li>
+                        <li><a href="corporate.html" class="text-decoration-none text-uppercase">Site search</a></li>
+                    </ul>
+                </li>
+                <!-- Contact av-link -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="contact.html" role="button">
+                        Contact
+                    </a>
+                </li>
+                <!-- shopping nav-link -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-white" href="#" role="button"><span
+                            class="d-lg-none fw-lighter text-uppercase">Shopping</span>
+                        <i class="fas fa-shopping-cart float-end float-lg-none fa-icon"></i>
+                    </a>
+                    <ul class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn shopping-cart-ul"
+                        aria-labelledby="navbarDropdownMenuLink">
+                        <li class="py-2"><a href="index.html" class="text-decoration-none text-uppercase">Header
+                                Style</a>
+                        </li>
+                        <li class="py-2"><a href="design-studio.html" class="text-decoration-none text-uppercase">Mega
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="digital-agency.html"
+                                class="text-decoration-none text-uppercase">Footer
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="construction.html" class="text-decoration-none text-uppercase">Rev
+                                Slide
+                            </a></li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Side Panel
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Page
+                                Banner
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">User
+                                Protofile
+                            </a></li>
+                        <li><a href="corporate.html" class="text-decoration-none text-uppercase">Site search</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+            <div class="mb-2 d-lg-inline-flex d-none">
+                <a href="#" class="nav-link px-0 text-white"><i class="fas fa-search px-3 fa-icon"></i></a>
+                <a href="#" class="nav-link px-0 text-white"><i class="fas fa-sort-amount-down px-3 fa-icon"></i></a>
+            </div>
+            </div>
+        </nav>
+        <!-- /navbar -->
+    </header>
+    <!-- /header of the page -->
+
+    <!-- banner of the page-->
+    <div class="banner-section position-relative">
+        <div class="image-section text-white d-block">
+            <div class="header-section position-absolute px-3">
+                <h5 class="mb-lg-5 main-heading fw-bold fs-3 text-uppercase">Graphics. Web. Digital.</h5>
+                <h1 class="d-block mt-md-5 display-1 start-up fw-bold pt-lg-4 text-uppercase">Start-up
+                </h1>
+                <p class="d-block sub-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                <button type="button"
+                    class="btn btn-secondary roxin-button fw-bold text-white py-2 py-sm-3 px-2 px-sm-5 text-uppercase rounded-1">Explore
+                    Work</button>
+            </div>
+        </div>
+    </div>
+    <!-- /banner of the page -->
+
+    <!-- main content of the page-->
+    <section class="content-wrapper py-5 my-0 my-lg-5">
+        <div class="container">
+            <div class="content-block">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-5">
+                        <div class="p-4">
+                            <p class="fs-2 fw-bold main-heading text-uppercase">What We Do</p>
+                            <h2 class="display-5 fw-bold text-primary text-uppercase sub-heading">Experts</h2>
+                            <p class="fst-italic text-primary lh-lg fw-bold fs-5 paragraph">We build digital solutions.
+                            </p>
+                            <div><img src="./images/divider.png" alt="divider-image"> </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-5 text-center">
+                        <div class="p-4 ico-box">
+                            <div class="fs-1 mb-4 text-info icon">
+                                <i class="fas fa-pen-nib"></i>
+                            </div>
+                            <h5 class="heading-sub fw-bold text-uppercase">Pixel Perfect</h5>
+                            <p class="text-info px-4 sub-paragraph">Auersla, conse ctetur adipis icing lorem ipsum dolor
+                                sit amet</p>
+                            <div class="text-info small mt-4 pt-2">
+                                <a href="#" class="text-decoration-none text-uppercase">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-5 text-center">
+                        <div class="p-4 ico-box">
+                            <div class="fs-1 mb-4 text-info icon">
+                                <i class="fas fa-bezier-curve"></i>
+                            </div>
+                            <h4 class="heading-sub fw-bold text-uppercase">Vector Shapes</h4>
+                            <p class="text-info px-4 sub-paragraph">Auersla, conse ctetur adipis icing lorem ipsum dolor
+                                sit amet</p>
+                            <div class="text-info small mt-4 pt-2">
+                                <a href="#" class="text-decoration-none text-uppercase">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-5 text-center">
+                        <div class="p-4 ico-box">
+                            <div class="fs-1 mb-4 text-info icon">
+                                <i class="fab fa-acquisitions-incorporated"></i>
+                            </div>
+                            <h4 class="heading-sub fw-bold text-uppercase">Vector Shapes</h4>
+                            <p class="text-info px-4 sub-paragraph">Auersla, conse ctetur adipis icing lorem ipsum dolor
+                                sit amet</p>
+                            <div class="text-info small mt-4 pt-2">
+                                <a href="#" class="text-decoration-none text-uppercase">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-5 text-center">
+                        <div class="p-4 ico-box">
+                            <div class="fs-1 mb-4 text-info icon">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <h4 class="heading-sub fw-bold text-uppercase">Vector Shapes</h4>
+                            <p class="text-info px-4 sub-paragraph">Auersla, conse ctetur adipis icing lorem ipsum dolor
+                                sit amet</p>
+                            <div class="text-info small mt-4 pt-2">
+                                <a href="#" class="text-decoration-none text-uppercase">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-5 text-center">
+                        <div class="p-4 ico-box">
+                            <div class="fs-1 mb-4 text-info icon">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                            <h4 class="heading-sub fw-bold text-uppercase">Vector Shapes</h4>
+                            <p class="text-info px-4 sub-paragraph">Auersla, conse ctetur adipis icing lorem ipsum dolor
+                                sit amet</p>
+                            <div class="text-info small mt-4 pt-2">
+                                <a href="#" class="text-decoration-none text-uppercase">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- /main content of the page-->
+
+    <!-- inner-content wapper -->
+    <section class="inner-wapper py-5">
+        <div class="container py-5">
+            <div class="text-white text-center">
+                <h3 class="fs-2 main-heading fw-bold text-uppercase">Best Ever Design</h3>
+                <h2 class="display-5 fw-bold sub-heading">Time to enhance your web presence!</h2>
+                <div class="mt-5">
+                    <a href="#"
+                        class="btn inner-wapper-get-button btn-secondary roxin-button fw-bold text-white py-2 py-sm-3 px-2 px-sm-5 text-uppercase rounded-1">Get
+                        Quotation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/End inner-content wapper-->
+
+    <!-- Protofolio block-->
+
+    <section class="py-5 my-lg-5 protofolio-block">
+        <div class="container-fluid p-0 overflow-hidden">
+            <div>
+                <h1 class="fw-bold text-info text-center display-5 mb-3 text-uppercase">The work</h1>
+            </div>
+            <ul class="text-center text-decoration-none list-inline mt-4 mb-5">
+                <li class="d-inline-block small px-3">
+                    <a href="#" class="text-decoration-none text-uppercase">All</a>
+                </li>
+                <li class="d-inline-block list px-3 small">
+                    <a href="#" class="text-decoration-none">-</a>
+                </li>
+                <li class="d-inline-block list px-3 small">
+                    <a href="#" class="text-decoration-none text-uppercase">Ui/ux Design</a>
+                </li>
+                <li class="d-inline-block list px-3 small">
+                    <a href="#" class="text-decoration-none">-</a>
+                </li>
+                <li class="d-inline-block list px-3 small">
+                    <a href="#" class="text-decoration-none text-uppercase">Programming</a>
+                </li>
+                <li class="d-inline-block list px-3 small">
+                    <a href="#" class="text-decoration-none">-</a>
+                </li>
+                <li class="d-inline-block list px-3 small">
+                    <a href="#" class="text-decoration-none text-uppercase">Photography</a>
+                </li>
+                <li class="d-inline-block list px-3 small">
+                    <a href="#" class="text-decoration-none">-</a>
+                </li>
+                <li class="d-inline-block list px-3 small">
+                    <a href="#" class="text-decoration-none text-uppercase">Ecommerce</a>
+                </li>
+            </ul>
+            <!-- images section -->
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <figure class="figure position-relative">
+                        <img src="./images/img-37.jpg" class="figure-img img-fluid rounded-0 mb-0" alt="img-37">
+                        <figcaption class="figure-caption position-absolute animated animate__fadeInDown">
+                            <a href="#" class="position-relative"><i
+                                    class="fas fa-heart text-white fs-5 bg-secondary p-2"></i></a>
+                            <a href="#" class="position-relative"><i
+                                    class="fas fa-link text-white fs-5 bg-secondary p-2"></i></a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <figure class="figure position-relative">
+                        <img src="./images/img-36.jpg" class="figure-img img-fluid rounded-0 mb-0" alt="img-37">
+                        <figcaption class="figure-caption position-absolute animated animate__fadeInDown">
+                            <a href="#" class="position-relative"><i
+                                    class="fas fa-heart text-white fs-5 bg-secondary p-2"></i></a>
+                            <a href="#" class="position-relative"><i
+                                    class="fas fa-link text-white fs-5 bg-secondary p-2"></i></a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <figure class="figure position-relative">
+                        <img src="./images/img-35.jpg" class="figure-img img-fluid rounded-0 mb-0" alt="img-37">
+                        <figcaption class="figure-caption position-absolute animated animate__fadeInDown">
+                            <a href="#" class="position-relative"><i
+                                    class="fas fa-heart text-white fs-5 bg-secondary p-2"></i></a>
+                            <a href="#" class="position-relative"><i
+                                    class="fas fa-link text-white fs-5 bg-secondary p-2"></i></a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <figure class="figure position-relative">
+                        <img src="./images/img-34.jpg" class="figure-img img-fluid rounded-0 mb-0" alt="img-37">
+                        <figcaption class="figure-caption position-absolute animated animate__fadeInDown">
+                            <a href="#" class="position-relative"><i
+                                    class="fas fa-heart text-white fs-5 bg-secondary p-2"></i></a>
+                            <a href="#" class="position-relative"><i
+                                    class="fas fa-link text-white fs-5 bg-secondary p-2"></i></a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <figure class="figure position-relative">
+                        <img src="./images/img-33.jpg" class="figure-img img-fluid rounded-0 mb-0" alt="img-37">
+                        <figcaption class="figure-caption position-absolute animated animate__fadeInDown">
+                            <a href="#" class="position-relative"><i
+                                    class="fas fa-heart text-white fs-5 bg-secondary p-2"></i></a>
+                            <a href="#" class="position-relative"><i
+                                    class="fas fa-link text-white fs-5 bg-secondary p-2"></i></a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <figure class="figure position-relative">
+                        <img src="./images/img-32.jpg" class="figure-img img-fluid rounded-0 mb-0" alt="img-37">
+                        <figcaption class="figure-caption position-absolute animated animate__fadeInDown">
+                            <a href="#" class="position-relative"><i
+                                    class="fas fa-heart text-white fs-5 bg-secondary p-2"></i></a>
+                            <a href="#" class="position-relative"><i
+                                    class="fas fa-link text-white fs-5 bg-secondary p-2"></i></a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /End Protofolio block -->
+
+    <!-- the life size section -->
+    <section class="life-section pb-5 mb-lg-5">
+        <div class="container">
+            <div class="block-heading text-info mb-5">
+                <h2 class="main-heading fw-bold fs-2 text-uppercase">The life size</h2>
+                <h1 class="sub-heading text-uppercase display-5 fw-bold lh-base">Brand story</h1>
+                <p class="fs-5 lh-base fw-normal fst-italic fw-bold paragraph">View multiple content block layouts under
+                    features section.
+                </p>
+                <div><img src="./images/divider.png" alt="divider-image"> </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-md-0 mb-4">
+                    <div class="lh-base text-primary">
+                        <p class="sub-para small lh-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magnaal qua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p class="sub-para small lh-lg">Excepteur sint occaecat cupidatat non proident, sunt in
+                            culp a qui officia deserunt mollit anim id est laborum. Sed ut per spiciatis unde omnis iste
+                            natus error sit voluptatem accusan tium doloremque laudantium, totam rem aperiam, eaque ip
+                        </p>
+                    </div>
+                    <div class="mt-5">
+                        <a href="#" class="btn view-button btn-dark border border-dark roxin-button fw-bold py-2 py-sm-3 px-2
+                             px-sm-5 text-uppercase rounded-1">View Project</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-primary">
+                        <p class="sub-para small lh-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div>
+                                    <ul class="text-decoration-none list-unstyled web-ul mb-0">
+                                        <li class=""><a href="#"
+                                                class="text-decoration-none text-secondary text-uppercase">Web &
+                                                Interactive Design</a></li>
+                                        <li class=""><a href="#"
+                                                class="text-decoration-none text-secondary text-uppercase">Content
+                                                Menagement</a></li>
+                                        <li class=""><a href="#"
+                                                class="text-decoration-none text-secondary text-uppercase">Web
+                                                Application</a></li>
+                                        <li class=""><a href="#"
+                                                class="text-decoration-none text-secondary text-uppercase">software
+                                                Development</a>
+                                        </li>
+                                        <li class=""><a href="#"
+                                                class="text-decoration-none text-secondary text-uppercase">Ecommerce
+                                                solutions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div>
+                                    <ul class="text-decoration-none list-unstyled web-ul">
+                                        <li class=""><a href="#"
+                                                class="text-decoration-none text-secondary text-uppercase">Database
+                                                Design</a></li>
+                                        <li class=""><a href="#"
+                                                class="text-decoration-none text-secondary text-uppercase">Technical
+                                                Doccumentation</a>
+                                        </li>
+                                        <li class=""><a href="#"
+                                                class="text-decoration-none text-secondary text-uppercase">Software
+                                                Architecture</a>
+                                        </li>
+                                        <li class=""><a href="#"
+                                                class="text-decoration-none text-secondary text-uppercase">Search
+                                                Optimization</a></li>
+                                        <li class=""><a href="#"
+                                                class="text-decoration-none text-secondary text-uppercase">Web
+                                                Permotions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /End the life size section -->
+
+    <!-- Work place -->
+    <section class="work-place">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <div class="block-heading text-info mb-5 text-center pt-5 mt-lg-5 mt-0 px-1 px-md-5">
+                        <h2 class="main-heading fw-bold fs-2 text-uppercase">Work Place</h2>
+                        <h1 class="sub-heading text-uppercase display-5 fw-bold lh-base">The culture</h1>
+                        <p class="fs-5 lh-base fw-bold fst-italic paragraph">Lovely people with nack for design
+                            creativity flourish here.</p>
+                        <div class="mb-4 mb-sm-5"><img src="./images/divider.png" alt="divider-image"> </div>
+                        <p class="fw-bold sub-para short-para">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /End Work place -->
+
+    <!-- Who we are-Team Work -->
+    <section class="py-5 my-lg-5 my-0 team-work-section">
+        <div class="container">
+            <div class="block-heading text-info mb-5">
+                <h2 class="main-heading fw-bold fs-2 text-uppercase">Who we are</h2>
+                <h1 class="sub-heading text-uppercase display-5 fw-bold lh-base">Team Work</h1>
+                <p class="fs-5 lh-base fw-normal fst-italic paragraph fw-bold">We really love what we do & our work on
+                    every project truly
+                    reflects that.
+                </p>
+                <div><img src="./images/divider.png" alt="divider-image"> </div>
+            </div>
+            <!-- carousel -->
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <!-- row 1 -->
+                        <div class="row">
+                            <div class="col-md-4 team-column">
+                                <img src="./images/team-01.jpg" class="d-block w-100" alt="team">
+                                <!-- <div class="bg-secondary position-absolute text-white hello bottom-0 h3 p-5">Pooja
+                                    Chauhan</div> -->
+                            </div>
+                            <div class="col-md-4 d-md-block d-none team-column">
+                                <img src="./images/team-02.jpg" class="d-block w-100" alt="team">
+                                <!-- <div class="bg-secondary position-absolute text-white hello bottom-0 h3 p-5">Pooja
+                                    Chauhan</div> -->
+                            </div>
+                            <div class="col-md-4 d-md-block d-none team-column">
+                                <img src="./images/team-03.jpg" class="d-block w-100" alt="team">
+                                <!-- <div class="bg-secondary position-absolute text-white hello bottom-0 h3 p-5">Pooja
+                                    Chauhan</div> -->
+                            </div>
+                        </div>
+                        <!-- /row 1 -->
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <!-- row 2 -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="./images/team-02.jpg" class="d-block w-100" alt="team">
+                            </div>
+                            <div class="col-md-4 d-md-block d-none">
+                                <img src="./images/team-03.jpg" class="d-block w-100" alt="team">
+                            </div>
+                            <div class="col-md-4 d-md-block d-none">
+                                <img src="./images/team-01.jpg" class="d-block w-100" alt="team">
+                            </div>
+                        </div>
+                        <!-- /row 2 -->
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <!-- row 3 -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="./images/team-03.jpg" class="d-block w-100" alt="team">
+                            </div>
+                            <div class="col-md-4 d-md-block d-none">
+                                <img src="./images/team-01.jpg" class="d-block w-100" alt="team">
+                            </div>
+                            <div class="col-md-4 d-md-block d-none">
+                                <img src="./images/team-02.jpg" class="d-block w-100" alt="team">
+                            </div>
+                        </div>
+                        <!-- /row 3 -->
+                    </div>
+                </div>
+                <!-- carousel buttons -->
+                <button class="carousel-control-prev d-xl-block d-none" type="button"
+                    data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" role="img" width="2rem" height="2rem" preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 24 24">
+                        <path fill="none" stroke="#c1c5cd" stroke-width="2" d="M17 2L7 12l10 10" /></svg>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next d-xl-block d-none" type="button"
+                    data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" role="img" width="2rem" height="2rem" preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 24 24">
+                        <path fill="none" stroke="#c1c5cd" stroke-width="2" d="M7 2l10 10L7 22" /></svg>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <!-- /carousel buttons -->
+            </div>
+            <p class="sub-para small fw-bold lh-lg mt-5 pt-3">Martin loves gossiping code on his iPhone.
+                Consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <!-- /end carousel -->
+        </div>
+        </div>
+    </section>
+    <!-- /End Who we are-Team Work -->
+
+    <!-- All over records -->
+    <section class="record-section position-relative">
+        <div class="container-fluid">
+            <div class="row record-row position-relative text-white">
+                <div class="col-lg-3 col-md-6 record-column py-5 px-3 text-center">
+                    <div class="display-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
+                            viewBox="0 0 512 512">
+                            <path
+                                d="M291.593 13.486v50.542h204.495c8.788 0 15.912 7.124 15.912 15.913v347.875c0 8.788-7.124 15.912-15.912 15.912H291.593v54.786L0 446.909V65l291.593-51.513zm-96.76 212.215c.981-15.538-2.708-31.289-13.16-41.363c-12.438-11.991-20.73-14.091-56.289-12.25l-28.886 1.496v163.155h29.37V280.1c54.185 4.625 66.744-26.631 68.964-54.399zm-33.756 0c-1.535 26.512-13.814 25.396-35.21 25.03v-49.298c24.047-.848 34.427 2.446 35.21 24.268zm311.348-.143l-55.112 57.482l-57.61-57.482h43.073v-75.52H291.593v147.641l44.272-43.566l65.862 65.909s-64.46 62.87-65.989 62.87c-1.527 0-44.145-40.643-44.145-40.643v84.697h203.485V80.81H291.593v41.955h138.454v102.792h42.378z"
+                                fill="white" /></svg>
+                    </div>
+                    <h3 class="my-3">550</h3>
+                    <p class="fs-4 fw-bold text-uppercase">Total Projects</p>
+                </div>
+                <div class="col-lg-3 col-md-6 record-column py-5 px-3 text-center">
+                    <div class="display-4">
+                        <i class="far fa-smile"></i>
+                    </div>
+                    <h3 class="my-3">220</h3>
+                    <p class="fs-4 fw-bold text-uppercase">Satified Clients</p>
+                </div>
+                <div class="col-lg-3 col-md-6 record-column py-5 px-3 text-center">
+                    <div class="display-4">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3 class="my-3">720</h3>
+                    <p class="fs-4 fw-bold text-uppercase">Awards Won</p>
+                </div>
+                <div class="col-lg-3 col-md-6 record-column py-5 px-3 text-center">
+                    <div class="display-4">
+                        <i class="fas fa-glass-cheers"></i>
+                    </div>
+                    <h3 class="my-3">707</h3>
+                    <p class="fs-4 fw-bold text-uppercase">Milestone Met</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /End All over records -->
+
+    <!-- Testimonial section -->
+    <section class="py-5 bg-light testimonial-section">
+        <div class="container my-lg-5 my-0">
+            <div class="block-heading text-info text-center">
+                <h2 class="main-heading fw-bold fs-2 text-uppercase">Here From</h2>
+                <h1 class="sub-heading text-uppercase display-5 fw-bold lh-base">Testimonials</h1>
+                <p class="fs-5 lh-base fw-bold fst-italic paragraph">We always listen to our clients.</p>
+                <div class="mb-2 mb-sm-5"><img src="./images/divider.png" alt="divider-image"> </div>
+            </div>
+            <!-- Testimonial carousel -->
+
+            <div id="carouselExampleCaptions" class="carousel slide bg-light" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/people-03.jpg" class="d-flex justify-content-center rounded-circle mx-auto"
+                            alt="people">
+                        <div class="text-info text-center py-5">
+                            <h2 class="text-secondary display-5 sub-para">Natalie Fullick</h2>
+                            <p class="text-uppercase text-info my-5 sub-para fw-lighter">CEO - Enavato Inc.</p>
+                            <p class="sub-para small w-75 mx-auto">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/people-02.jpg" class="d-flex justify-content-center rounded-circle mx-auto"
+                            alt="people">
+                        <div class="text-info text-center py-5">
+                            <h2 class="text-secondary display-5 sub-para">Natalie Fullick</h2>
+                            <p class="text-uppercase text-info my-5 sub-para fw-lighter">CEO - Enavato Inc.</p>
+                            <p class="sub-para small w-75 mx-auto">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/people-02.jpg"
+                            class="d-flex justify-content-center rounded-circle mx-auto carousel-img-3" alt="people">
+                        <div class="text-info text-center py-5">
+                            <h2 class="text-secondary display-5 sub-para">Natalie Fullick</h2>
+                            <p class="text-uppercase text-info my-5 sub-para fw-lighter">CEO - Enavato Inc.</p>
+                            <p class="sub-para small w-75 mx-auto">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev d-md-block d-none" type="button"
+                    data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" role="img" width="4rem" height="4rem" preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 24 24">
+                        <path fill="none" stroke="#c1c5cd" stroke-width="2" d="M17 2L7 12l10 10" /></svg>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next d-md-block d-none" type="button"
+                    data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" role="img" width="4rem" height="4rem" preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 24 24">
+                        <path fill="none" stroke="#c1c5cd" stroke-width="2" d="M7 2l10 10L7 22" /></svg>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- /Testimonial carousel -->
+        </div>
+    </section>
+    <!-- /End Testimonial section -->
+    <!-- Footer section -->
+    <footer class="footer-section bg-dark">
+        <section>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-4 mb-3 mb-lg-0"><img src="./images/logo-dark.svg" alt="logo"></div>
+                    <div class="col-lg-4 text-warning text-lg-center">
+                        <ul class="list-unstyled my-lg-auto">
+                            <li class="d-inline-block pe-md-3 pe-2"><a href="#"
+                                    class="text-decoration-none small sub-para fw-bold">Home</a></li>
+                            <li class="d-inline-block pe-md-3 pe-2"><a href="#"
+                                    class="text-decoration-none small sub-para fw-bold">About</a></li>
+                            <li class="d-inline-block pe-md-3 pe-2"><a href="#"
+                                    class="text-decoration-none small sub-para fw-bold">Blog</a></li>
+                            <li class="d-inline-block pe-md-3 pe-2"><a href="#"
+                                    class="text-decoration-none small sub-para fw-bold">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 text-warning">
+                        <ul class="list-unstyled my-lg-auto float-lg-end">
+                            <li class="d-inline-block pe-md-4 pe-3"><a href="#"><i
+                                        class="fab fa-facebook-f fs-5 facebook-icon"></i></a>
+                            </li>
+                            <li class="d-inline-block pe-md-4 pe-3"><a href="#"><i
+                                        class="fab fa-twitter fs-5 twitter-icon"></i></a>
+                            </li>
+                            <li class="d-inline-block pe-md-4 pe-3"><a href="#"><i
+                                        class="fab fa-google-plus-g fs-5 google-icon"></i></a></li>
+                            <li class="d-inline-block pe-md-4 pe-3"><a href="#"><i
+                                        class="fab fa-pinterest fs-5 pinterest-icon"></i></a>
+                            </li>
+                            <li class="d-inline-block pe-md-4 pe-3"><a href="#"><i
+                                        class="fas fa-basketball-ball fs-5 basketball-icon"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-warning text-center small sub-para fw-bold py-4 px-2">Copyright 2016 - Roxine -
+                Multi Purpose Theme by Waituk</div>
+        </section>
+    </footer>
+    <!-- /End Footer section -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+    <!-- wow.js file -->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- jquery file -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- main.js file -->
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

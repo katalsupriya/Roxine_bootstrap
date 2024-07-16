@@ -1,0 +1,75 @@
+//=============About banner section=============
+
+.about-banner-section {
+    width: 100%;
+    height: 450px;
+    background-image: url("../images/visual-small-01.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &::after {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 450px;
+        background-color: rgba(0, 0, 0, .5);
+        z-index: 0;
+    }
+
+    &>* {
+        position: relative;
+        z-index: 1;
+        top: 42%;
+    }
+
+    .about-header-section {
+        .about-main-heading {
+            font-family: $font-family-josefin;
+        }
+
+        .about-order-list {
+            font-family: $font-family-poppins;
+
+            .breadcrumb-item::before {
+                color: $white !important;
+            }
+        }
+    }
+}
+
+//==============End About banner section===================
+//====================Main content=========================
+.about-main-content{
+    //section one
+    .about-heading{
+        font-family: $font-family-josefin;
+    }
+}
+//section second
+.about-experts{
+     .image-column{
+         img{
+            object-fit: cover;
+            @include media-breakpoint-min-large{
+                height:650px;
+            }
+         }
+         
+    }
+    .column-wraping{
+        @include media-breakpoint-min-large{
+            max-width:450px;
+        }
+    }
+    .main-paragraph{
+        p{
+            font-size:13px;
+        }
+    }
+}
+
+//===================End Main Content=====================

@@ -1,0 +1,496 @@
+//=========theme color ==============
+
+$theme-colors: ("primary": #55565b,
+  "secondary": #5645ff, "info":#575757, "light": #f8f8f8, "dark":#212121, "warning":#7d7d7d);
+
+//========= Variable color ==========
+
+$primary: #55565b;
+$secondary: #5645ff;
+$secondary-hover:#2812ff;
+$white: #fff;
+$info: #575757;
+$light: #f8f8f8;
+$dark: #212121;
+$warning:#7d7d7d;
+$border-color:#f1f1f1;
+
+//============border radius===========
+
+$border-radius: 0.5rem;
+
+//============font weight============
+
+$font-weight-lighter: 500;
+
+//============font size================
+
+$font-size-10:0.625rem;
+$font-size-12: 0.75rem;
+$font-size-14: 0.856rem;
+$font-size-18:1.125rem;
+
+//=============font family===============
+
+$font-family-josefin: 'Josefin Sans';
+$font-family-poppins: 'Poppins',
+sans-serif;
+
+@font-face {
+  font-family: 'helvetica-neue';
+  src: url(../fonts/neue-helvetica-cufonfonts/Helvetica\ Neue\ LT\ 65\ Medium.ttf);
+}
+
+//==============Import files================
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Poppins:ital,wght@0,200;1,200&display=swap');
+
+//================meadia querys===============
+
+@mixin media-breakpoint-min-large {
+  @media (min-width:992px) {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-max-large {
+  @media (max-width:992px) {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-medium {
+  @media (max-width:767px) {
+    @content;
+  }
+}
+
+//================animation for banner===================
+
+.animated-banner {
+  animation-duration: 10s;
+  animation-fill-mode: both;
+}
+
+//===============animation for inner web page===========
+
+.animated {
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+//=================body========================
+
+//================globle classes========================
+
+.main-heading {
+  font-family: $font-family-josefin;
+  letter-spacing: 3px;
+}
+
+.sub-heading {
+  letter-spacing: 4px;
+}
+
+.sub-para {
+  letter-spacing: 1px;
+  font-family: $font-family-poppins;
+}
+
+.paragraph {
+  font-size: $font-size-18 !important;
+  letter-spacing: 1px;
+  font-family: $font-family-poppins;
+}
+
+.roxin-button {
+  font-family: $font-family-poppins;
+  letter-spacing: 3px;
+}
+
+//==========================================================================================================
+body {
+  font-family: 'helvetica-neue' !important;
+
+  //================header====================
+  header {
+
+    //==================navbar starts===========
+    .navbar {
+      .nav-link {
+        @include media-breakpoint-max-large {
+          color: $dark !important;
+        }
+      }
+
+      @include media-breakpoint-max-large {
+        background-color: white !important;
+      }
+    }
+
+    .navbar {
+      z-index: 1000;
+
+      .dropdown:hover .creative-agency {
+        display: block !important;
+      }
+
+      .element-dropdown {
+      right:60px;
+        left: 43px;
+      }
+
+      .nav-link {
+        font-size: $font-size-12 !important;
+      }
+
+      .nav-item {
+        .creative-agency {
+          li {
+            font-size: $font-size-10;
+          }
+        }
+      }
+
+      .navbar-toggler {
+
+        &:active,
+        &:focus {
+          box-shadow: none !important;
+        }
+      }
+
+      .nav-link {
+        color: $primary;
+
+        @include media-breakpoint-min-large {
+          color: $white;
+        }
+      }
+      .shopping-cart-ul{
+        top:95%;
+        right:0;
+      }
+    }
+
+  }
+
+  //==================End navbar==================
+
+  //===================banner section start===========
+
+  .banner-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/big-14.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &::after {
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: #000;
+      opacity: 0.7;
+      z-index: 0;
+    }
+
+    &>* {
+      position: relative;
+      z-index: 1;
+      top: 21%;
+    }
+
+    .image-section {
+      .header-section {
+        top: 0%;
+        left: 10%;
+
+        @include media-breakpoint-medium {
+          left: 0%;
+        }
+
+        .start-up {
+          font-size: 160px;
+          letter-spacing: 14px;
+
+          @include media-breakpoint-max-large {
+            font-size: 130px;
+            letter-spacing: 5px;
+          }
+
+          @include media-breakpoint-medium {
+            font-size: 60px;
+
+          }
+        }
+
+        p {
+          max-width: 50%;
+
+          @include media-breakpoint-medium {
+            min-width: 50%;
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  //======================End banner section============
+
+  //================content section start=============
+
+  .content-wrapper {
+
+    .ico-box {
+      border-radius: $border-radius;
+      background-color: $light;
+
+      .heading-sub {
+        color: $info;
+        letter-spacing: 2px;
+        font-family: $font-family-josefin;
+        font-size: $font-size-18;
+      }
+
+      .sub-paragraph {
+        font-size: $font-size-14;
+      }
+
+      &:hover {
+        box-shadow: inset 500px 0 0 0 $white, 1px 1px 14px 1px #d9d6d6;
+        transition: ease-out 0.4s;
+
+        .icon i {
+          color: $secondary;
+        }
+
+        &>.heading-sub {
+          color: $secondary;
+        }
+      }
+    }
+  }
+
+  //===================End content section===================
+
+  //====================inner wapper section================
+  .inner-wapper {
+    background-image: url(../images/big-15.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+
+    &::after {
+      content: ' ';
+      display: block;
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      opacity: 0.7;
+      z-index: 0;
+    }
+
+    &>* {
+      position: relative;
+      z-index: 1;
+    }
+
+    .sub-heading {
+      font-family: $font-family-josefin;
+    }
+
+    .inner-wapper-get-button {
+      &:hover {
+        background-color: $secondary-hover;
+        border-color: $secondary-hover;
+      }
+    }
+  }
+
+  //====================End inner-wapper section==========
+
+  //====================Protofolia block================
+
+  .protofolio-block {
+    .figure {
+      .figure-caption {
+        display: none;
+        top: 43%;
+        left: 43%;
+      }
+
+      &:hover {
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #333;
+          transition: ease-out 0.4s;
+          opacity: 0.6;
+        }
+
+        .figure-caption {
+          display: block;
+        }
+      }
+    }
+  }
+
+  //====================End Protofolia block================
+
+  //====================the life size section================
+
+  .life-section {
+
+
+    .web-ul {
+      font-size: $font-size-12;
+      a{
+        line-height:3rem;
+      }
+    }
+
+    .view-button {
+      &:hover {
+        background-color: $white;
+        color: $dark;
+      }
+    }
+  }
+
+  //====================End the life size section================
+
+  //====================work place section================
+
+  .work-place {
+    width: 100%;
+    height: 980px;
+    background-image: url("../images/big-01.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .block-heading {
+      .short-para {
+        @include media-breakpoint-medium {
+          font-size: $font-size-12;
+        }
+      }
+    }
+  }
+
+  //===========End Work Place============
+
+  //===========team-work-section=========
+
+  //.team-work-section {
+   // .carousel {
+      //.carousel-control-prev {
+      //   left: -10%;
+      // }
+
+      // .carousel-control-next {
+      //   right: -10%;
+      // }
+//===================carousel hover trasition==============
+      // .carousel-item {
+      //   .hello {
+      //     opacity: 0;
+      //   }
+
+      //   .team-column:hover .hello {
+      //     display: block;
+      //     opacity: 1;
+      //     transform: translate(0, -200px);
+      //     transition: ease-out 0.4s;
+      //   }
+      // }
+   // }
+  //}
+
+  //===========End team-work-section=======
+
+  //=============All over records============
+  .record-section {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/visual-small-11.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &::after {
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .8);
+      opacity: 0.7;
+      z-index: 0;
+    }
+
+    .record-row {
+      z-index: 1;
+
+      .record-column:hover {
+        background-color: $secondary;
+        transition: ease-out 0.4s;
+      }
+    }
+  }
+
+  //===========Footer================================================================
+  .footer-section {
+    a:hover {
+      color: $white;
+    }
+
+    i:hover {
+      color: $secondary;
+    }
+
+    // .facebook-icon:hover{
+    //   color:$secondary;
+    // }
+    // .twitter-icon:hover{
+    //   color:$secondary;
+    // }
+    // .google-icon:hover{
+    //   color:$secondary;
+    // }
+    // .pinterest-icon:hover{
+    //   color:$secondary;
+    // }
+    // .basketball-icon:hover{
+    //   color:$secondary;
+    // }
+  }
+}
+
+//=============import file of bootstrap===================
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//=============importing about.scss file==================
+@import "about.scss";
+
+//===============importing contact.scss file===========
+@import "contact.scss";

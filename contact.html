@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- animation.min.css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Roxine Project</title>
+</head>
+
+<body>
+    <!-- header of the page -->
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid px-lg-5 px-0">
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand m-sm-auto me-0" href="#"><img class="dark-img d-lg-none d-inline-flex"
+                        src="./images/logo-dark.svg" alt="logo-image"><img class="light-img d-lg-block d-none"
+                        src="./images/logo.svg" alt="logoimage">
+                    <div class="mb-2 d-lg-none d-inline-flex pe-2">
+                        <a href="#"><i class="fas fa-search px-3 my-2 text-primary"></i></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto text-small">
+                            <li class="nav-item dropdown">
+                                <!-- home nav-link -->
+                                <a class="nav-link active fw-lighter px-lg-3 px-2 text-white text-uppercase"
+                                    href="index.html" id="navbarDropdownMenuLink" role="button">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu creative-agency ps-lg-3 bg-light px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn"
+                                    aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="py-2"><a href="index.html" class="text-decoration-none text-uppercase">
+                                            Creative Agency</a></li>
+                                    <li class="py-2"><a href="#"
+                                            class="text-decoration-none text-uppercase">Design Studio</a></li>
+                                    <li class="py-2"><a href="#"
+                                            class="text-decoration-none text-uppercase">Digital Agency</a></li>
+                                    <li class="py-2"><a href="#"
+                                            class="text-decoration-none text-uppercase">Construction</a></li>
+                                    <li><a href="#" class="text-decoration-none text-uppercase">Corporate
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- feature nav-link -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="#"
+                                    role="button">
+                                    feature
+                                </a>
+                                <ul class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn"
+                                    aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="py-2"><a href="index.html"
+                                            class="text-decoration-none text-uppercase">Header Style</a>
+                                    </li>
+                                    <li class="py-2"><a href="#"
+                                            class="text-decoration-none text-uppercase">Mega
+                                            Menu
+                                        </a></li>
+                                    <li class="py-2"><a href="#"
+                                            class="text-decoration-none text-uppercase">Footer
+                                            Menu
+                                        </a></li>
+                                    <li class="py-2"><a href="#"
+                                            class="text-decoration-none text-uppercase">Rev Slide
+                                        </a></li>
+                                    <li class="py-2"><a href="#"
+                                            class="text-decoration-none text-uppercase">Side Panel
+                                        </a>
+                                    </li>
+                                    <li class="py-2"><a href="#"
+                                            class="text-decoration-none text-uppercase">Page Banner
+                                        </a>
+                                    </li>
+                                    <li class="py-2"><a href="#"
+                                            class="text-decoration-none text-uppercase">User Protofile
+                                        </a></li>
+                                    <li><a href="#" class="text-decoration-none text-uppercase">Site
+                                            search</a></li>
+                                </ul>
+                            </li>
+                            <!--Protofiles nav-link -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="#"
+                                    role="button">
+                                    Protofiles
+                                </a>
+                                <ul class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn"
+                                    aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="py-2"><a href="index.html" class="text-decoration-none text-uppercase">No
+                                            Slider</a>
+                                    </li>
+                                    <li class="py-2"><a href="#"
+                                            class="text-decoration-none text-uppercase">Left
+                                            Slider</a></li>
+                                    <li class="py-2"><a href="#"
+                                            class="text-decoration-none text-uppercase">Right slider
+                                        </a></li>
+                                    <li class="py-2"><a href="#"
+                                            class="text-decoration-none text-uppercase">Masonary
+                                        </a>
+                                    </li>
+                                    <li class="py-2"><a href="#"
+                                            class="text-decoration-none text-uppercase">Full width</a>
+                </a></li>
+                <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Full Speed</a>
+                </li>
+                <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Boxed</a></li>
+                <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Single V1</a>
+                </li>
+                <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Single V2</a>
+                </li>
+                <li><a href="#" class="text-decoration-none text-uppercase">Single V3</a></li>
+                </ul>
+                </li>
+                <!-- Element nav-link -->
+                <li class="nav-item dropdown position-static">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="#" role="button">
+                        Element
+                    </a>
+                    <div
+                        class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn element-dropdown">
+                        <div class="row">
+                            <div class="col-lg-3 col-12">
+                                <ul class="ps-lg-3 ps-0 bg-light py-lg-4 py-0 list-inline border-end bg-light">
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="#"><i class="fas fa-bars pe-2"></i>
+                                            Accordions</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="#"><i class="fas fa-magic pe-2"></i>
+                                            Animation</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="#"><i class="fas fa-link pe-2"></i>Button
+                                        </a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="#"><i class="fas fa-heart pe-2"></i>
+                                            Carousel</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="#"><i class="fas fa-tasks pe-2"></i>Tabs</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="#"><i class="fas fa-columns pe-2"></i>
+                                            Coluymns</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="#"><i class="fas fa-clock pe-2"></i>
+                                            Counter</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="#"><i class="fas fa-table pe-2"></i>
+                                            Data Tables</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-12">
+                                <ul class="ps-lg-3 ps-0 py-lg-4 bg-light py-0 list-inline border-end">
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="#"><i
+                                                class="fas fa-calendar-week pe-2"></i>Data & Time pickers</a>
+                                    </li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="#"><i class="fas fa-indent pe-2"></i>
+                                            Divider</a></li>
+                                    <li class="py-2"><a class="text-decoration-none" href="element-icon-boxes.html"><i
+                                                class="fas fa-lightbulb pe-2"></i>
+                                            Icon Boxes</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="#"><i class="fas fa-portrait pe-2"></i>
+                                            Gallery</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="#"><i class="fas fa-pen-square pe-2"></i>
+                                            Header Style</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="#"><i class="fas fa-list pe-2"></i>Icon
+                                            Lists</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="#"><i class="fas fa-plus-circle pe-2"></i>
+                                            Lables </a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="#"><i
+                                                class="fas fa-expand-arrows-alt pe-2"></i>LightBoxes</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-12">
+                                <ul class="ps-lg-3 ps-0 py-lg-4 py-0 bg-light list-inline border-end">
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-google-maps.html"><i class="fas fa-map-pin pe-2"></i>
+                                            Maps</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-media-embed.html"><i class="fas fa-play pe-2"></i>
+                                            Meadia Embeds</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-modal-boxes.html"><i
+                                                class="fas fa-people-carry pe-2"></i>Model Boxes</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-paginations.html"><i class="fas fa-cogs pe-2"></i>
+                                            Paginations</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-progressbar.html"><i class="fas fa-spinner pe-2"></i>
+                                            Progress Bars</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-range-sliders.html"><i class="fas fa-arrows-alt pe-2"></i>
+                                            Range Slider</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-star-ratings.html"><i class="fas fa-arrows-alt pe-2"></i>Star
+                                            Rating</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-pricing-boxes.html"><i class="fas fa-dollar-sign pe-2"></i>
+                                            Price Boxes</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-12">
+                                <ul class="ps-lg-3 ps-0 py-lg-4 py-0 bg-light list-inline border-end">
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-blockquotes.html"><i
+                                                class="fas fa-quote-right pe-2"></i>Blockquotes </a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="font-icons.html"><i class="fas fa-laptop pe-2"></i>Font Icon</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-sections.html"><i class="fas fa-folder-open pe-2"></i>
+                                            Sections</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-social-icons.html"><i class="fab fa-facebook pe-2"></i>social
+                                            Icon</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-select-pickers.html"><i class="fas fa-hand-pointer pe-2"></i>
+                                            Select picker</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-select-boxes.html"><i class="fas fa-columns pe-2"></i>
+                                            Select Boxes</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase" href="team.html"><i
+                                                class="fas fa-hand-pointer pe-2"></i>Team Block</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase" href="about.html"><i
+                                                class="fas fa-columns pe-2"></i>About Block</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- About nav-link -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="about.html"
+                        role="button">
+                        About
+                    </a>
+                </li>
+                <!-- Team nav-link -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="#" role="button">
+                       Team
+                    </a>
+                    <ul class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn"
+                        aria-labelledby="navbarDropdownMenuLink">
+                        <li class="py-2"><a href="index.html" class="text-decoration-none text-uppercase">Header
+                                Style</a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Mega
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="#"
+                                class="text-decoration-none text-uppercase">Footer
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Rev
+                                Slide
+                            </a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Side Panel
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Page
+                                Banner
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">User
+                                Protofile
+                            </a></li>
+                        <li><a href="#" class="text-decoration-none text-uppercase">Site search</a></li>
+                    </ul>
+                </li>
+                <!-- Blog nav-link -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-white text-uppercase" href="#" role="button">
+                        Blog
+                    </a>
+                    <ul class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn"
+                        aria-labelledby="navbarDropdownMenuLink">
+                        <li class="py-2"><a href="index.html" class="text-decoration-none text-uppercase">Header
+                                Style</a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Mega
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="#"
+                                class="text-decoration-none text-uppercase">Footer
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Rev
+                                Slide
+                            </a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Side Panel
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Page
+                                Banner
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">User
+                                Protofile
+                            </a></li>
+                        <li><a href="#" class="text-decoration-none text-uppercase">Site search</a></li>
+                    </ul>
+                </li>
+                <!-- Contact nav-link -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="contact.html"
+                        role="button">
+                        Contact
+                    </a>
+                </li>
+                <!-- shopping nav-link -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-white" href="#" role="button"><span
+                            class="d-lg-none fw-lighter text-uppercase">Shopping</span>
+                        <i class="fas fa-shopping-cart fa-icon float-end float-lg-none"></i>
+                    </a>
+                    <ul class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn shopping-cart-ul"
+                        aria-labelledby="navbarDropdownMenuLink">
+                        <li class="py-2"><a href="index.html" class="text-decoration-none text-uppercase">Header
+                                Style</a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Mega
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="#"
+                                class="text-decoration-none text-uppercase">Footer
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Rev
+                                Slide
+                            </a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Side Panel
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">Page
+                                Banner
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none text-uppercase">User
+                                Protofile
+                            </a></li>
+                        <li><a href="#" class="text-decoration-none text-uppercase">Site search</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+            <div class="d-lg-inline-flex d-none">
+                <a href="#" class="nav-link px-0 text-white"><i class="fas fa-search px-3 fa-icon"></i></a>
+            </div>
+            </div>
+        </nav>
+        <!-- /navbar -->
+    </header>
+    <!-- /header of the page -->
+
+    <!-- main -->
+    <main>
+        <!-- contact banner section -->
+        <section class="py-5 bg-dark">
+            <div class="container pt-5 my-5">
+                <h1 class="display-5 fw-bold mb-3 text-center text-white main-heading">Contact Us</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center small">
+                        <li class="breadcrumb-item text-uppercase"><a href="#"
+                                class="text-decoration-none text-white sub-para small">Home</a></li>
+                        <li class="breadcrumb-item active text-uppercase text-white sub-para small" aria-current="page">
+                            Contact Us</li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+        <!-- /End contact banner section -->
+
+        <!-- Get in touch with us -->
+        <section class="pt-5 my-5 contact-us-section">
+            <div class="container">
+                <h5 class="text-uppercase fw-bold text-primary contact-us-heading mb-5">Get in touch with us</h5>
+                <div class="row">
+                    <!-- form column -->
+                    <div class="col-lg-6">
+                        <!-- row 1 -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="name" class="form-control rounded-0 text-uppercase lh-lg px-3" id="exampleInputName"
+                                            placeholder="First Name *">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-6">
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="name" class="form-control rounded-0 text-uppercase lh-lg px-3" id="exampleInputName"
+                                            placeholder="Last Name *">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- /row 1 -->
+
+                        <!-- row 2 -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="tel" class="form-control rounded-0 text-uppercase lh-lg px-3" id="exampleInputPhoneNumber"
+                                            placeholder="Phone Number *">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-6">
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control rounded-0 text-uppercase lh-lg px-3" id="exampleInputEmail"
+                                            placeholder="Email *">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- /row 3 -->
+
+                        <!-- text area for message -->
+                        <div class="form-group mb-5">
+                            <textarea class="form-control rounded-0 text-uppercase lh-lg px-3" id="exampleFormControlTextarea5"
+                                placeholder="Message *" rows="5"></textarea>
+                        </div>
+                        <!-- /text area for message -->
+
+                        <!-- form button -->
+                            <button type="submit"
+                                class="btn btn-secondary roxin-button fw-bold text-white py-sm-3 py-2 ps-sm-5 ps-3 text-uppercase rounded-0">Send
+                                Message<i class="fas fa-chevron-right ps-sm-5 ps-2"></i></button>
+                        <!-- /form button -->
+                    </div>
+                    <!-- address column -->
+                    <div class="col-lg-6 ps-lg-5 address-column">
+                        <!-- row 1 -->
+                        <div
+                            class="row my-4 mb-lg-5 pb-lg-5 mt-lg-0 text-primary ps-lg-5">
+                            <div class="col-2 text-lg-center px-lg-0 align-self-center">
+                                <i class="fas fa-map-marked-alt display-3 fw-light"></i>
+                            </div>
+                            <div class="col-10">
+                                <address class="sub-para fw-bold ps-3 lh-lg mb-0">
+                                    707 London Road, Isleworth <br>
+                                    Middlesex, TW7 7QD <br>
+                                    United Kingdom <br>
+                                </address>
+                            </div>
+                        </div>
+                        <!-- /row 1 -->
+                        <!-- row 2 -->
+                        <div
+                            class="row my-4 mb-lg-5 pb-lg-5 mt-lg-0 text-primary ps-lg-5">
+                            <div class="col-2 text-lg-center px-lg-0 align-self-center">
+                                <i class="fas fa-headset display-3 fw-light"></i>
+                            </div>
+                            <div class="col-10">
+                                <div class="fw-bold sub-para ps-3">
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="mb-1">
+                                            <div class="row">
+                                                <div class="col-3"><span class="text-uppercase">Helpline</span></div>
+                                                <div class="col-9"><a href="#" class="text-decoration-none">(020) 7877
+                                                        7777</a></div>
+                                            </div>
+                                        </li>
+                                        <li class="mb-1">
+                                            <div class="row">
+                                                <div class="col-3"><span class="text-uppercase">Enquiry</span></div>
+                                                <div class="col-9"><a href="#" class="text-decoration-none">(020) 7877
+                                                        7777</a></div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3"><span class="text-uppercase">Fax</span></div>
+                                                <div class="col-9"><a href="#" class="text-decoration-none">(020) 7877
+                                                        7777</a></div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /row 2 -->
+                        <!-- row 3 -->
+                        <div
+                            class="row my-4 mb-lg-5 pb-lg-5 mt-lg-0 text-primary ps-lg-5">
+                            <div class="col-2 text-lg-center px-lg-0 align-self-center">
+                                <i class="fas fa-envelope-open-text display-3 fw-light"></i>
+                            </div>
+                            <div class="col-10">
+                                <div class="fw-bold sub-para ps-3"></div>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-1"><a href="#"
+                                            class="text-decoration-none ps-3">support@roxine-online</a>
+                                    </li>
+                                    <li class="mb-1"><a href="#"
+                                            class="text-decoration-none ps-3">info@roxine-online.com</a>
+                                    </li>
+                                    <li><a href="#" class="text-decoration-none ps-3">help@roxine-online.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /row 3 -->
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- /End Get in touch with us -->
+
+        <!-- Map location -->
+        <section>
+            <div class="container-fluid px-0 map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33012.865096105044!2d-0.19547112154320603!3d51.52777454627274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d0a98a6c1ed5df%3A0xf4e19525332d8ea8!2sEngland%2C%20UK!5e0!3m2!1sen!2sin!4v1640808453965!5m2!1sen!2sin"
+                    width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+        <!-- /Map location -->
+    </main>
+    <!-- /End main section -->
+
+    <!-- footer section -->
+    <footer>
+        <section class="py-5 bg-black">
+            <div class="container my-md-5 my-2">
+                <!-- Email subscription form -->
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <input type="email"
+                            class="form-control text-primary rounded-0 bg-black border-primary py-2 border-2 lh-lg"
+                            placeholder="Email Address" id="emailAddress" aria-label="email address">
+                    </div>
+                    <div class="col-md-2 text-center my-4 my-md-0">
+                        <button type="submit" id="subscribeButton" class="btn btn-black roxin-button fw-bold text-primary px-4 text-uppercase rounded-0 py-2 lh-lg
+                             border-primary">Subscribe</button>
+                    </div>
+                </div>
+                <!-- /Email subscription form -->
+
+                <!-- our address -->
+                <div class="row py-5 my-lg-5 footer-ul">
+                    <!-- col 1 -->
+              <div class="col-md-4">
+                  <div class="row">
+                      <div class="col-2 d-flex">
+                        <div class="pe-4 align-self-center"><i class="fas fa-mobile-alt text-primary fs-2"></i></div>
+                      </div>
+                      <div class="col lh-lg">
+                          <div class="text-primary">
+                              <p class="mb-0">Call Us On</p>
+                              <p class="mb-0"><a href="#" class="text-decoration-none">977 985 1108896</a></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- /col 1 -->
+
+              <!-- col 2 -->
+              <div class="col-md-4">
+                  <div class="row">
+                      <div class="col-2 d-flex">
+                        <div class="pe-4 align-self-center"><i class="fas fa-envelope-square text-primary fs-2"></i>
+                        </div>
+                      </div>
+                      <div class="col lh-lg">
+                          <div class="text-primary">
+                              <p class="mb-0">Email Us At</p>
+                              <p class="mb-0">Email at <a href="#" class="text-decoration-none">Waituk.net</a></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- /col 2 -->
+
+              <!-- col 3 -->
+              <div class="col-md-4">
+                  <div class="row">
+                      <div class="col-2 d-flex">
+                        <div class="pe-4 align-self-center"><i class="fas fa-map-marker-alt fs-2 text-primary"></i>
+                        </div>
+                      </div>
+                      <div class="col lh-lg">
+                          <div class="text-primary">
+                              <p class="mb-0">Visit Office</p>
+                              <p class="mb-0">707 Ive Corner - London</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- /col 3 -->
+                </div>
+                <!-- /our address -->
+
+                <!-- You can link us with this Information -->
+                <ul class="list-unstyled my-auto text-center footer-ul">
+                    <li class="d-inline-block pe-md-4 me-md-2 pe-2"><a href="#"><i
+                                class="fab fa-facebook-f fs-3"></i></a>
+                    </li>
+                    <li class="d-inline-block pe-md-4 me-md-2 pe-2"><a href="#"><i class="fab fa-twitter fs-3"></i></a>
+                    </li>
+                    <li class="d-inline-block pe-md-4 me-md-2 pe-2"><a href="#"><i
+                                class="fab fa-google-plus-g fs-3"></i></a></li>
+                    <li class="d-inline-block pe-md-4 me-md-2 pe-2"><a href="#"><i
+                                class="fab fa-pinterest fs-3"></i></a>
+                    </li>
+                    <li class="d-inline-block"><a href="#"><i
+                                class="fas fa-basketball-ball fs-3"></i></a>
+                    </li>
+                </ul>
+                <!-- /You can link us with this Information -->
+            </div>
+        </section>
+
+        <!-- copyright -->
+        <section class="bg-dark py-2">
+                <div class="text-warning text-center small sub-para fw-bold py-4 px-2">Copyright 2016 - Roxine - Multi
+                    Purpose Theme by Waituk</div>
+        </section>
+        <!-- /copyright -->
+    </footer>
+    <!-- /End Footer section -->
+
+</body>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+
+<!-- wow.js file -->
+<script src="./js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+<!-- jquery file -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- main.js file -->
+<script src="./js/main.js"></script>
+
+</body>
+
+</html>

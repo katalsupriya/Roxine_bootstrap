@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- animation.min.css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Roxine Project</title>
+</head>
+
+<body>
+    <!-- header of the page -->
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid px-lg-5 px-0">
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand m-sm-auto me-0" href="#"><img class="dark-img d-lg-none d-inline-flex"
+                        src="./images/logo-dark.svg" alt="logoimage"><img class="light-img d-lg-block d-none"
+                        src="./images/logo.svg" alt="logoimage">
+                    <div class="mb-2 d-lg-none d-inline-flex pe-2">
+                        <a href="#"><i class="fas fa-search px-3 my-2 text-primary"></i></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto text-small">
+                            <li class="nav-item dropdown">
+                                <!-- home nav-link -->
+                                <a class="nav-link active fw-lighter px-lg-3 px-2 text-white text-uppercase"
+                                    href="index.html" id="navbarDropdownMenuLink" role="button">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu creative-agency ps-lg-3 bg-light px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn"
+                                    aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="py-2"><a href="index.html" class="text-decoration-none text-uppercase">
+                                            Creative Agency</a></li>
+                                    <li class="py-2"><a href="design-studio.html"
+                                            class="text-decoration-none text-uppercase">Design Studio</a></li>
+                                    <li class="py-2"><a href="digital-agency.html"
+                                            class="text-decoration-none text-uppercase">Digital Agency</a></li>
+                                    <li class="py-2"><a href="construction.html"
+                                            class="text-decoration-none text-uppercase">Construction</a></li>
+                                    <li><a href="corporate.html" class="text-decoration-none text-uppercase">Corporate
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- feature nav-link -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="#"
+                                    role="button">
+                                    feature
+                                </a>
+                                <ul class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn"
+                                    aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="py-2"><a href="index.html"
+                                            class="text-decoration-none text-uppercase">Header Style</a>
+                                    </li>
+                                    <li class="py-2"><a href="design-studio.html"
+                                            class="text-decoration-none text-uppercase">Mega
+                                            Menu
+                                        </a></li>
+                                    <li class="py-2"><a href="digital-agency.html"
+                                            class="text-decoration-none text-uppercase">Footer
+                                            Menu
+                                        </a></li>
+                                    <li class="py-2"><a href="construction.html"
+                                            class="text-decoration-none text-uppercase">Rev Slide
+                                        </a></li>
+                                    <li class="py-2"><a href="corporate.html"
+                                            class="text-decoration-none text-uppercase">Side Panel
+                                        </a>
+                                    </li>
+                                    <li class="py-2"><a href="corporate.html"
+                                            class="text-decoration-none text-uppercase">Page Banner
+                                        </a>
+                                    </li>
+                                    <li class="py-2"><a href="corporate.html"
+                                            class="text-decoration-none text-uppercase">User Protofile
+                                        </a></li>
+                                    <li><a href="corporate.html" class="text-decoration-none text-uppercase">Site
+                                            search</a></li>
+                                </ul>
+                            </li>
+                            <!--Protofiles nav-link  -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="#"
+                                    role="button">
+                                    Protofiles
+                                </a>
+                                <ul class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn"
+                                    aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="py-2"><a href="index.html" class="text-decoration-none text-uppercase">No
+                                            Slider</a>
+                                    </li>
+                                    <li class="py-2"><a href="design-studio.html"
+                                            class="text-decoration-none text-uppercase">Left
+                                            Slider</a></li>
+                                    <li class="py-2"><a href="digital-agency.html"
+                                            class="text-decoration-none text-uppercase">Right slider
+                                        </a></li>
+                                    <li class="py-2"><a href="construction.html"
+                                            class="text-decoration-none text-uppercase">Masonary
+                                        </a>
+                                    </li>
+                                    <li class="py-2"><a href="corporate.html"
+                                            class="text-decoration-none text-uppercase">Full width</a>
+                </a></li>
+                <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Full Speed</a>
+                </li>
+                <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Boxed</a></li>
+                <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Single V1</a>
+                </li>
+                <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Single V2</a>
+                </li>
+                <li><a href="corporate.html" class="text-decoration-none text-uppercase">Single V3</a></li>
+                </ul>
+                </li>
+                <!-- Element nav-link -->
+                <li class="nav-item dropdown position-static">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="#" role="button">
+                        Element
+                    </a>
+                    <div
+                        class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn element-dropdown">
+                        <div class="row">
+                            <div class="col-lg-3 col-12">
+                                <ul class="ps-lg-3 ps-0 bg-light py-lg-4 py-0 list-inline border-end bg-light">
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-accordions.html"><i class="fas fa-bars pe-2"></i>
+                                            Accordions</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-animations.html"><i class="fas fa-magic pe-2"></i>
+                                            Animation</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-buttons.html"><i class="fas fa-link pe-2"></i>Button
+                                        </a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-carousels.html"><i class="fas fa-heart pe-2"></i>
+                                            Carousel</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-tabs.html"><i class="fas fa-tasks pe-2"></i>Tabs</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-columns.html"><i class="fas fa-columns pe-2"></i>
+                                            Coluymns</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-counters.html"><i class="fas fa-clock pe-2"></i>
+                                            Counter</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-data-tables.html"><i class="fas fa-table pe-2"></i>
+                                            Data Tables</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-12">
+                                <ul class="ps-lg-3 ps-0 py-lg-4 bg-light py-0 list-inline border-end">
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-date-time-pickers.html"><i
+                                                class="fas fa-calendar-week pe-2"></i>Data & Time pickers</a>
+                                    </li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-dividers.html"><i class="fas fa-indent pe-2"></i>
+                                            Divider</a></li>
+                                    <li class="py-2"><a class="text-decoration-none" href="element-icon-boxes.html"><i
+                                                class="fas fa-lightbulb pe-2"></i>
+                                            Icon Boxes</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-galleries.html"><i class="fas fa-portrait pe-2"></i>
+                                            Gallery</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-header-styles.html"><i class="fas fa-pen-square pe-2"></i>
+                                            Header Style</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-icon-lists.html"><i class="fas fa-list pe-2"></i>Icon
+                                            Lists</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-labels.html"><i class="fas fa-plus-circle pe-2"></i>
+                                            Lables </a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-lightbox.html"><i
+                                                class="fas fa-expand-arrows-alt pe-2"></i>LightBoxes</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-12">
+                                <ul class="ps-lg-3 ps-0 py-lg-4 py-0 bg-light list-inline border-end">
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-google-maps.html"><i class="fas fa-map-pin pe-2"></i>
+                                            Maps</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-media-embed.html"><i class="fas fa-play pe-2"></i>
+                                            Meadia Embeds</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-modal-boxes.html"><i
+                                                class="fas fa-people-carry pe-2"></i>Model Boxes</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-paginations.html"><i class="fas fa-cogs pe-2"></i>
+                                            Paginations</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-progressbar.html"><i class="fas fa-spinner pe-2"></i>
+                                            Progress Bars</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-range-sliders.html"><i class="fas fa-arrows-alt pe-2"></i>
+                                            Range Slider</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-star-ratings.html"><i class="fas fa-arrows-alt pe-2"></i>Star
+                                            Rating</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-pricing-boxes.html"><i class="fas fa-dollar-sign pe-2"></i>
+                                            Price Boxes</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-12">
+                                <ul class="ps-lg-3 ps-0 py-lg-4 py-0 bg-light list-inline border-end">
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-blockquotes.html"><i
+                                                class="fas fa-quote-right pe-2"></i>Blockquotes </a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="font-icons.html"><i class="fas fa-laptop pe-2"></i>Font Icon</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-sections.html"><i class="fas fa-folder-open pe-2"></i>
+                                            Sections</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-social-icons.html"><i class="fab fa-facebook pe-2"></i>social
+                                            Icon</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-select-pickers.html"><i class="fas fa-hand-pointer pe-2"></i>
+                                            Select picker</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase"
+                                            href="element-select-boxes.html"><i class="fas fa-columns pe-2"></i>
+                                            Select Boxes</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase" href="team.html"><i
+                                                class="fas fa-hand-pointer pe-2"></i>Team Block</a></li>
+                                    <li class="py-2"><a class="text-decoration-none text-uppercase" href="about.html"><i
+                                                class="fas fa-columns pe-2"></i>About Block</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- About nav-link -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="about.html"
+                        role="button">
+                        About
+                    </a>
+                </li>
+                <!-- Team nav-link -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="#" role="button">
+                        Team
+                    </a>
+                    <ul class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn"
+                        aria-labelledby="navbarDropdownMenuLink">
+                        <li class="py-2"><a href="index.html" class="text-decoration-none text-uppercase">Header
+                                Style</a>
+                        </li>
+                        <li class="py-2"><a href="design-studio.html" class="text-decoration-none text-uppercase">Mega
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="digital-agency.html"
+                                class="text-decoration-none text-uppercase">Footer
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="construction.html" class="text-decoration-none text-uppercase">Rev
+                                Slide
+                            </a></li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Side Panel
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Page
+                                Banner
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">User
+                                Protofile
+                            </a></li>
+                        <li><a href="corporate.html" class="text-decoration-none text-uppercase">Site search</a></li>
+                    </ul>
+                </li>
+                <!-- Blog nav-link -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-white" href="#" role="button">
+                        Blog
+                    </a>
+                    <ul class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn"
+                        aria-labelledby="navbarDropdownMenuLink">
+                        <li class="py-2"><a href="index.html" class="text-decoration-none text-uppercase">Header
+                                Style</a>
+                        </li>
+                        <li class="py-2"><a href="design-studio.html" class="text-decoration-none text-uppercase">Mega
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="digital-agency.html"
+                                class="text-decoration-none text-uppercase">Footer
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="construction.html" class="text-decoration-none text-uppercase">Rev
+                                Slide
+                            </a></li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Side Panel
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Page
+                                Banner
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">User
+                                Protofile
+                            </a></li>
+                        <li><a href="corporate.html" class="text-decoration-none text-uppercase">Site search</a></li>
+                    </ul>
+                </li>
+                <!-- Contact av-link -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-uppercase text-white" href="contact.html" role="button">
+                        Contact
+                    </a>
+                </li>
+                <!-- shopping nav-link -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-lighter px-lg-3 px-2 text-white" href="#" role="button"><span
+                            class="d-lg-none fw-lighter text-uppercase">Shopping</span>
+                        <i class="fas fa-shopping-cart fa-icon float-end float-lg-none"></i>
+                    </a>
+                    <ul class="dropdown-menu creative-agency bg-light ps-lg-3 px-2 py-lg-4 py-0 rounded-0 border-0 animated animate__fadeIn shopping-cart-ul"
+                        aria-labelledby="navbarDropdownMenuLink">
+                        <li class="py-2"><a href="index.html" class="text-decoration-none text-uppercase">Header
+                                Style</a>
+                        </li>
+                        <li class="py-2"><a href="design-studio.html" class="text-decoration-none text-uppercase">Mega
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="digital-agency.html"
+                                class="text-decoration-none text-uppercase">Footer
+                                Menu
+                            </a></li>
+                        <li class="py-2"><a href="construction.html" class="text-decoration-none text-uppercase">Rev
+                                Slide
+                            </a></li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Side Panel
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">Page
+                                Banner
+                            </a>
+                        </li>
+                        <li class="py-2"><a href="corporate.html" class="text-decoration-none text-uppercase">User
+                                Protofile
+                            </a></li>
+                        <li><a href="corporate.html" class="text-decoration-none text-uppercase">Site search</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+            <div class="d-lg-inline-flex d-none">
+                <a href="#" class="nav-link px-0 text-white"><i class="fas fa-search px-3 fa-icon"></i></a>
+            </div>
+            </div>
+        </nav>
+        <!-- /navbar -->
+    </header>
+    <!-- /header of the page -->
+    <!-- banner of the page-->
+    <div class="about-banner-section position-relative">
+        <div class="about-image-section text-white d-block">
+            <div class="about-header-section position-absolute px-3 text-center w-100">
+                <div class="container">
+                    <h1 class="display-4 fw-bold about-main-heading mb-3">About Business</h1>
+                    <div>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center about-order-list small">
+                                <li class="breadcrumb-item text-uppercase"><a href="#"
+                                        class="text-white text-decoration-none">Home</a></li>
+                                <li class="breadcrumb-item active text-uppercase text-white" aria-current="page">About
+                                    Business</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /banner of the page -->
+
+    <!-- main content -->
+    <main>
+        <!-- section one -->
+        <section class="py-5 my-lg-5 my-0 about-main-content">
+            <div class="container">
+                <div class="row justify-content-center pt-4">
+                    <div class="col-lg-10 col-md-11 text-center">
+                        <h1 class="about-heading mb-3 fw-bold display-5">Dream. <span
+                                class="text-secondary">Create.</span> Deliver</h1>
+                        <p class="sub-para fw-lighter pt-lg-5 pt-2 text-primary lh-lg">Delightful unreserved
+                            impossible few
+                            estimating men
+                            favourable see entreaties. She propriety
+                            immediate was improving. He or entrance humoured likewise moderate. Much nor game son say
+                            feel. Fat make met can must form into gate. Me we offending prevailed discovery.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /End section one -->
+        <!-- section second -->
+        <section class="about-experts">
+            <div class="container-fluid">
+                <!-- row 1 -->
+                <div class="row">
+                    <div class="col-lg-6 px-0 animated animate__fadeInLeft wow image-column">
+                        <!-- image 1 -->
+                        <img src="./images/img-09.jpg" class="img-fluid" alt="img-09">
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div class="main-paragraph mx-lg-5 column-wraping py-lg-0 py-5">
+                            <h2 class="main-heading fw-bold pb-xl-5 pb-4">Digital experts working for you.</h2>
+                            <p class="sub-para fw-bold pb-xl-4 lh-lg">Chapter too parties its letters nor. Cheerful but
+                                whatever ladyship disposed yet
+                                judgment. Lasted answer oppose to ye months no esteem.</p>
+                            <p class="sub-para fw-bold pb-xl-4 lh-lg">Branched is on an ecstatic directly it. Put off
+                                continue you denoting returned juvenile.
+                                Looked person sister result mr to. Replied demands charmed do viewing ye colonel to so.
+                            </p>
+                            <p class="sub-para fw-bold pb-xl-4 lh-lg">Decisively inquietude he advantages insensible at
+                                oh continuing unaffected of.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /row 1 -->
+                <!-- row 2 -->
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-center order-lg-1 order-2 justify-content-end">
+                        <div class="main-paragraph mx-lg-5 column-wraping py-lg-0 py-5">
+                            <h2 class="main-heading fw-bold pb-xl-5 pb-4">Bring a perfectionist.</h2>
+                            <p class="sub-para fw-bold pb-xl-4">New had happen unable uneasy. Drawings can
+                                followed improved out sociable not. Earnestly so do instantly pretended.</p>
+                            <p class="sub-para fw-bold pb-xl-4 lh-lg">See general few civilly amiable pleased account
+                                carried. Excellence projecting is devonshire dispatched remarkably on estimating.
+                            </p>
+                            <p class="sub-para fw-bold pb-xl-4 lh-lg">Decisively inquietude he advantages insensible at
+                                oh continuing unaffected of.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 px-0 order-lg-2 order-1 animated animate__fadeInRight wow image-column">
+                        <!-- image 2 -->
+                        <img src="./images/img-10.jpg" class="img-fluid" alt="img-10">
+                    </div>
+                </div>
+                <!-- /row 2 -->
+                <!-- row 3 -->
+                <div class="row">
+                    <div class="col-lg-6 px-0 animated animate__fadeInLeft wow image-column">
+                        <!-- image 3 -->
+                        <img src="./images/img-11.jpg" class="img-fluid" alt="img-11">
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div class="main-paragraph mx-lg-5 column-wraping py-lg-0 py-5">
+                            <h2 class="main-heading fw-bold pb-xl-5 pb-4">Leave no stone unterned.</h2>
+                            <p class="sub-para fw-bold pb-xl-4 lh-lg">New had happen unable uneasy. Drawings can
+                                followed improved out sociable not. Earnestly so do instantly pretended.</p>
+                                <p class="sub-para fw-bold pb-xl-4 lh-lg">See general few civilly amiable pleased account
+                                    carried. Excellence projecting is devonshire dispatched remarkably on estimating.
+                                </p>
+                                <p class="sub-para fw-bold pb-xl-4 lh-lg">Decisively inquietude he advantages insensible at
+                                    oh continuing unaffected of.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /row 3 -->
+            </div>
+        </section>
+        <!-- /End section second -->
+    </main>
+    <!-- End Main Content -->
+
+    <!-- inner-content wapper -->
+
+    <section class="inner-wapper py-5">
+        <div class="container py-5">
+            <div class="text-white text-center">
+                <h3 class="fs-2 main-heading fw-bold text-uppercase">Best Ever Design</h3>
+                <h2 class="display-5 fw-bold sub-heading">Time to enhance your web presence!</h2>
+                <div class="mt-5">
+                    <a href="#"
+                        class="btn inner-wapper-get-button btn-secondary roxin-button fw-bold text-white py-2 py-sm-3 px-2 px-sm-5 text-uppercase rounded-1">Get
+                        Quotation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--/End inner-content wapper-->
+
+    <!-- Footer section -->
+
+    <footer class="footer-section bg-dark">
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 text-warning">
+                        <ul class="list-unstyled my-lg-auto">
+                            <li class="d-inline-block pe-md-4 pe-3"><a href="#"><i
+                                        class="fab fa-facebook-f fs-5 facebook-icon"></i></a>
+                            </li>
+                            <li class="d-inline-block pe-md-4 pe-3"><a href="#"><i
+                                        class="fab fa-twitter fs-5 twitter-icon"></i></a>
+                            </li>
+                            <li class="d-inline-block pe-md-4 pe-3"><a href="#"><i
+                                        class="fab fa-google-plus-g fs-5 google-icon"></i></a></li>
+                            <li class="d-inline-block pe-md-4 pe-3"><a href="#"><i
+                                        class="fab fa-pinterest fs-5 pinterest-icon"></i></a>
+                            </li>
+                            <li class="d-inline-block pe-md-4 pe-3"><a href="#"><i
+                                        class="fas fa-basketball-ball fs-5 basketball-icon"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 text-warning text-lg-center">
+                        <ul class="list-unstyled my-lg-auto">
+                            <li class="d-inline-block pe-md-3 pe-2"><a href="#"
+                                    class="text-decoration-none small sub-para fw-bold">Home</a></li>
+                            <li class="d-inline-block pe-md-3 pe-2"><a href="#"
+                                    class="text-decoration-none small sub-para fw-bold">About</a></li>
+                            <li class="d-inline-block pe-md-3 pe-2"><a href="#"
+                                    class="text-decoration-none small sub-para fw-bold">Blog</a></li>
+                            <li class="d-inline-block pe-md-3 pe-2"><a href="#"
+                                    class="text-decoration-none small sub-para fw-bold">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 text-lg-end"><img src="./images/logo.svg" alt="logo"></div>
+                </div>
+            </div>
+        </section>
+        <!-- copyright -->
+        <div class="text-warning text-center small sub-para fw-bold py-4 px-2">Copyright 2017 - Waituk</div>
+    </footer>
+
+</body>
+
+<!-- /End Footer section -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+
+<!-- wow.js file -->
+<script src="./js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+<!-- jquery file -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- main.js file -->
+<script src="./js/main.js"></script>
+
+</body>
+
+</html>
